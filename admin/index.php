@@ -138,10 +138,10 @@ $update_available = false;
 if ($system->SETTINGS['version_check'] !== "") {
     switch ($system->SETTINGS['version_check']) {
         case 'unstable':
-            $url = 'http://raw.githubusercontent.com/renlok/WeBid/dev/install/thisversion.txt';
+            $url = '/WeBid/dev/install/thisversion.txt';
             break;
         default:
-          $url = 'http://raw.githubusercontent.com/renlok/WeBid/master/install/thisversion.txt';
+          $url = '/WeBid/master/install/thisversion.txt';
             break;
     }
 
